@@ -8,7 +8,7 @@ WORKDIR /web-app
 COPY . .
 
 #copy env
-#COPY .env .env
+COPY .env .env
 
 #Install app dependencies 
 RUN npm install
